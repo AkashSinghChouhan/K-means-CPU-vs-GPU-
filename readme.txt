@@ -14,5 +14,4 @@ Dependencies used- OpenGL, freeglut
 
 
 
-Regards,
--Akash Singh Chouhan
+
