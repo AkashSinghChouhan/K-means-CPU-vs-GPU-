@@ -1,0 +1,47 @@
+﻿  
+  C:\Users\princ\source\repos\Kmeans(GPU)\Kmeans(GPU)>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64" -x cu  -I"E:\dev\openGL\OpenGL_Setup_Files-master\freeglut\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile   -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od  /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "C:\Users\princ\source\repos\Kmeans(GPU)\Kmeans(GPU)\kernel.cu" -clean 
+  kernel.cu
+  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\princ\source\repos\Kmeans(GPU)\Kmeans(GPU)>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64" -x cu  -I"E:\dev\openGL\OpenGL_Setup_Files-master\freeglut\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc141.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "C:\Users\princ\source\repos\Kmeans(GPU)\Kmeans(GPU)\kernel.cu" 
+  kernel.cu
+C:/Users/princ/source/repos/Kmeans(GPU)/Kmeans(GPU)/kernel.cu(124): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
+C:/Users/princ/source/repos/Kmeans(GPU)/Kmeans(GPU)/kernel.cu(385): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:/Users/princ/source/repos/Kmeans(GPU)/Kmeans(GPU)/kernel.cu(389): warning C4244: 'argument': conversion from 'int' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:/Users/princ/source/repos/Kmeans(GPU)/Kmeans(GPU)/kernel.cu(390): warning C4244: 'argument': conversion from 'int' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:/Users/princ/source/repos/Kmeans(GPU)/Kmeans(GPU)/kernel.cu(391): warning C4244: 'argument': conversion from 'int' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:/Users/princ/source/repos/Kmeans(GPU)/Kmeans(GPU)/kernel.cu(397): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:/Users/princ/source/repos/Kmeans(GPU)/Kmeans(GPU)/kernel.cu(413): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:/Users/princ/source/repos/Kmeans(GPU)/Kmeans(GPU)/kernel.cu(417): warning C4244: 'argument': conversion from 'int' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:/Users/princ/source/repos/Kmeans(GPU)/Kmeans(GPU)/kernel.cu(418): warning C4244: 'argument': conversion from 'int' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:/Users/princ/source/repos/Kmeans(GPU)/Kmeans(GPU)/kernel.cu(419): warning C4244: 'argument': conversion from 'int' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:/Users/princ/source/repos/Kmeans(GPU)/Kmeans(GPU)/kernel.cu(434): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:/Users/princ/source/repos/Kmeans(GPU)/Kmeans(GPU)/kernel.cu(435): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:/Users/princ/source/repos/Kmeans(GPU)/Kmeans(GPU)/kernel.cu(436): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:/Users/princ/source/repos/Kmeans(GPU)/Kmeans(GPU)/kernel.cu(437): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+     Creating library C:\Users\princ\source\repos\Kmeans(GPU)\x64\Debug\Kmeans(GPU).lib and object C:\Users\princ\source\repos\Kmeans(GPU)\x64\Debug\Kmeans(GPU).exp
+  Kmeans(GPU).vcxproj -> C:\Users\princ\source\repos\Kmeans(GPU)\x64\Debug\Kmeans(GPU).exe
